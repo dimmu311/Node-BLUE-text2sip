@@ -23,7 +23,7 @@ thats it.
 
 some info about config text2sip:
 there must be the following fields like in this example. After the END command there must be a new Line. The Comments in this Example are only for Explanation.
-
+```
 CALLING_USER_NUMBER=homegear //the user or number to registrate with at the sipproxy
 CALLING_USER_PASSWORD=1234abcd5678 //the passwort to registrate with at the sipproxy
 SIP_PROXY=192.168.1.1 //the ip address of the sipproxy
@@ -35,4 +35,4 @@ LANGUAGE=de-DE  //language for tts. see ttspico for more details
 MESSAGE="some Text" //the message that should be played
 END // shows that config is done
        //new line must be there
-       
+```
