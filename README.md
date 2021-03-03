@@ -5,20 +5,17 @@ to use this do the following steps:
 - install ttspico and sox
     `sudo apt-get install libttspico-utils sox`
 - install sipcmd
-
-
-you have to use modified version from Woersty. He added some code to get the DTMF-Code entered at the phone.
-maybe you need to install some dependencies first. see the reedme.
-  ``
-  sudo git clone https://github.com/Woersty/sipcmd.git
-  sudo cd sipcmd
-  sudo make
-  sudo cp sipcmd /bin/sipcmd
-  ``
+**NOTE**
+**you have to use modified version from Woersty. He added some code to get the DTMF-Code entered at the phone. maybe you need to install some dependencies first. see the reedme.**
+```
+sudo git clone https://github.com/Woersty/sipcmd.git
+sudo cd sipcmd
+sudo make
+sudo cp sipcmd /bin/sipcmd
+```
 - download text2sip.sh from this repository.
 - make text2sip.sh excutable
 - import flow.json to node blue
-
 - setup a sipproxy
 - in node blue edit config text2sip node to fit to your setup. See the informations at the bottom.
 - in node blue edit text2sip node to the path where text2sip.sh is located.
