@@ -6,7 +6,7 @@ to use this do the following steps:
     `sudo apt-get install libttspico-utils sox`
 - install sipcmd
 **NOTE**
-**you have to use modified version from Woersty. He added some code to get the DTMF-Code entered at the phone. maybe you need to install some dependencies first. see the reedme.**
+**you have to use modified version from Woersty. He added some code to get the DTMF-Code entered at the phone. maybe you need to install some dependencies first. see the readme.**
 ```
 sudo git clone https://github.com/Woersty/sipcmd.git
 sudo cd sipcmd
@@ -29,7 +29,7 @@ CALLING_USER_NUMBER=homegear //the user or number to registrate with at the sipp
 CALLING_USER_PASSWORD=1234abcd5678 //the passwort to registrate with at the sipproxy
 SIP_PROXY=192.168.1.1 //the ip address of the sipproxy
 CALLED_USER=11  //the phone number to call
-PAUSE_BEFORE=10000  //time to wait bevor tts is played after answering the call
+PAUSE_BEFORE=10000  //time to wait befor tts is played after answering the call
 PAUSE_AFTER=30000 //time to wait after tts was played till call gets rejected
 CALL_TIMEOUT=60 //call timeout
 LANGUAGE=de-DE  //language for tts. see ttspico for more details
